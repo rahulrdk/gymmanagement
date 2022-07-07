@@ -1,0 +1,1 @@
+web: gunicorn gymmanagement.wsgi --log-file -
