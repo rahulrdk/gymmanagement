@@ -1,16 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def logindef(request):
-    return render(request,'user/login.html')
 
-def homepagedef(request):
+def home(request):
     return render(request,'user/homepage.html')
 
-def paymentdef(request):
+def payment(request):
     return render(request,'user/payment.html')
 
-def planselectiondef(request):
+def plan_selection(request):
     return render(request,'user/planselection.html')
 
 # Create your views here.

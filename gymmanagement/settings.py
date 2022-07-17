@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'trainer',
     'user',
-    'mainadmin'
+    'mainadmin',
+    'common'
 ]
 
 MIDDLEWARE = [
@@ -123,7 +124,8 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
    os.path.join(BASE_DIR, 'user/static/'),
    os.path.join(BASE_DIR,'trainer/static'),
-   os.path.join(BASE_DIR,'mainadmin/static')
+   os.path.join(BASE_DIR,'mainadmin/static'),
+   os.path.join(BASE_DIR,'common/static')
    ]
 
 # Default primary key field type
